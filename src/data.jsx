@@ -9,7 +9,7 @@ import {
   FaGithub,
 } from "react-icons/fa";
 
-// Import images from the components folder
+
 import ingridentsImg from "./components/ingridients.avif";
 import ecomImg from "./components/ecom.webp";
 import chatImg from "./components/chat.jpg";

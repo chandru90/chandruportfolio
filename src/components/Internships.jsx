@@ -1,8 +1,11 @@
 import SectionTitle from "./SectionTitle";
 
+// Correct the import path based on the folder structure
+import settylLogo from "./settyl_corporation_logo.jpg";
+
 const Internships = () => {
   const internship = {
-    logo: "src/assets/settyl_corporation_logo.jpg",
+    logo: settylLogo, // Correctly imported image
     company: "Settyl Tech India Private Limited",
     position: "Full Stack Engineer I - Intern",
     period: "April 2024 - May 2024 (offline Internship)",
@@ -19,7 +22,7 @@ const Internships = () => {
       <div className="py-16 flex flex-col md:flex-row items-center md:items-start">
         <div className="flex flex-col items-center md:items-start md:w-1/3 mb-8 md:mb-0">
           <img
-            src={internship.logo}
+            src={internship.logo} // Correct usage of imported image
             alt={`${internship.company} logo`}
             className="h-16 w-16 object-contain mb-4"
           />
