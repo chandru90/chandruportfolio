@@ -9,7 +9,7 @@ import {
   FaBity,
   FaGithub,
 } from "react-icons/fa";
-
+import ingridients from "src/components/ingridients.avif";
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#skills", text: "skills" },
@@ -59,7 +59,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "src/components/ingridients.avif",
+    img: { ingridients },
     url: "https://recipemaker-six.vercel.app/",
     github: "https://github.com/chandru90/recipemaker/tree/master",
     title: "Recipe Maker",
