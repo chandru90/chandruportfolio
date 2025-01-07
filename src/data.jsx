@@ -9,7 +9,6 @@ import {
   FaGithub,
 } from "react-icons/fa";
 
-
 import ingridentsImg from "./components/ingridients.avif";
 import ecomImg from "./components/ecom.webp";
 import chatImg from "./components/chat.jpg";
@@ -63,7 +62,7 @@ export const projects = [
   {
     id: nanoid(),
     img: ingridentsImg, // Use the imported image
-    url: "https://recipemaker-six.vercel.app/",
+    url: "https://recipemaker-smoky.vercel.app/",
     github: "https://github.com/chandru90/recipemaker/tree/master",
     title: "Recipe Maker",
     text: "A food recipe app that allows users to explore, create, and save recipes. The app provides a platform for users to browse a diverse collection of recipes and add their own recipes. Each recipe includes details such as ingredients with step-by-step instructions. Users can personalize their experience by saving favorite recipes and contributing to the recipe database. Tech Stack: React, NodeJs, MongoDB, Express, JWT Authentication",
