@@ -61,11 +61,11 @@ export const skills = [
 export const projects = [
     {
     id: nanoid(),
-    img: ingridentsImg, // Use the imported image
+    img: foodstories, // Use the imported image
     url: "https://recipemaker-git-updated-chandru90s-projects.vercel.app/",
     github: "https://github.com/chandru90/recipemaker/tree/master",
     title: "Recipe Maker",
-    text: "A food recipe app that allows users to explore, create, and save recipes. The app provides a platform for users to browse a diverse collection of recipes and add their own recipes. Each recipe includes details such as ingredients with step-by-step instructions. Users can personalize their experience by saving favorite recipes and contributing to the recipe database. Tech Stack: React, NodeJs, MongoDB, Express, JWT Authentication",
+    text: "A food  story app that allows users to explore stories around food",
   },
   {
     id: nanoid(),
