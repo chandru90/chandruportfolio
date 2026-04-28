@@ -20,7 +20,7 @@ const certifications = () => {
 
   return (
     <section className="py-20 align-element" id="internships">
-      <SectionTitle text="Certifications" />
+      <SectionTitle text="Certification" />
 
       {internship.map((item, index) => (
         <div
