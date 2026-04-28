@@ -64,7 +64,7 @@ export const projects = [
     img: foodstories, // Use the imported image
     url: "https://recipemaker-git-updated-chandru90s-projects.vercel.app/",
     github: "https://github.com/chandru90/recipemaker/tree/master",
-    title: "Recipe Maker",
+    title: "Food Stories",
     text: "A food  story app that allows users to explore stories around food",
   },
   {
