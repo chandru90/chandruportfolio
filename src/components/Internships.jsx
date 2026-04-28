@@ -19,7 +19,7 @@ const Internships = () => {
     position: "Junior Full Stack Developer",
     period: "Jan 2025 - May 2026 ",
     description: `As a  full stack developer specialised in front end technologies React.js , Next.js and Tailwind CSS, building responsive and user-friendly interfaces.Implemented state management solutions using Context API and other modern libraries to ensure scalable application architecture.Possess strong understanding of Technical SEO, improving web application visibility and performance.Have good knowledge in integrating secure payment gateways within web applications.Worked with backend technologies including Node.js and MongoDB to develop and support full-stack featureOptimized application performance, significantly improving load times and overall efficiencyFollow best practices in clean coding, maintainable architecture, and version control.Ensure compliance with web accessibility guidelines (WCAG) to create inclusive user experiences. give as summary`,
-  }]              };
+  }]              
 
   return (
     <section className="py-20 align-element" id="internships">
