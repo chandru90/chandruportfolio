@@ -3,8 +3,7 @@ import Internships from "./components/Internships";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-
-import Certifications from "./components/certifications";
+import Certifications from "./components/Certifications";
 const App = () => {
   return (
     <>
