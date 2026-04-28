@@ -2,9 +2,9 @@ import SectionTitle from "./SectionTitle";
 
 // Correct the import path based on the folder structure
 import settylLogo from "./settyl_corporation_logo.jpg";
-
+import grethenalogo from "./grethena.jpg"
 const Internships = () => {
-  const internship = {
+  const internship = [{
     logo: settylLogo, // Correctly imported image
     company: "Settyl Tech India Private Limited",
     position: "Full Stack Engineer I - Intern",
@@ -13,8 +13,13 @@ const Internships = () => {
                   within our application framework. This involved analyzing the code
                   flow to identify and resolve issues effectively. By understanding both front-end 
                   and back-end technologies, I navigated through code structures to pinpoint root 
-                  causes of errors, ensuring seamless functionality and optimal performance of the application.`,
-  };
+                  causes of errors, ensuring seamless functionality and optimal performance of the application.`},
+ { logo: grethenalogo, // Correctly imported image
+    company: "Grethena Limited",
+    position: "Junior Full Stack Developer",
+    period: "Jan 2025 - May 2026 ",
+    description: `As a  full stack developer specialised in front end technologies React.js , Next.js and Tailwind CSS, building responsive and user-friendly interfaces.Implemented state management solutions using Context API and other modern libraries to ensure scalable application architecture.Possess strong understanding of Technical SEO, improving web application visibility and performance.Have good knowledge in integrating secure payment gateways within web applications.Worked with backend technologies including Node.js and MongoDB to develop and support full-stack featureOptimized application performance, significantly improving load times and overall efficiencyFollow best practices in clean coding, maintainable architecture, and version control.Ensure compliance with web accessibility guidelines (WCAG) to create inclusive user experiences. give as summary`,
+  }]              };
 
   return (
     <section className="py-20 align-element" id="internships">
