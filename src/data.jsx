@@ -13,12 +13,18 @@ import ingridentsImg from "./components/ingridients.avif";
 import ecomImg from "./components/ecom.webp";
 import chatImg from "./components/chat.jpg";
 import foodstories from "./components/foodstories.png";
+import { SiTypescript } from "react-icons/si";
+import { SiRedis } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { SiPowerbi } from "react-icons/si";
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#skills", text: "skills" },
   { id: nanoid(), href: "#projects", text: "projects" },
   { id: nanoid(), href: "#internships", text: "internships" },
 ];
+
 
 export const skills = [
   {
@@ -54,8 +60,45 @@ export const skills = [
   {
     id: nanoid(),
     title: "Git",
-    icon: <FaGithub className="h-16 w-16 text-emerald-500" />,
+    icon: <FaGithub className="h-16 w-16 text-emerald-500 mr-28" />,
   },
+  {
+    id: nanoid(),
+    title: "TypeScript",
+    icon: (
+      <div className="rounded-xl flex items-center justify-center">
+        <SiTypescript className="mr-48 h-12 w-12 text-emerald-500" />
+      </div>
+    ),
+  },
+  {
+    id: nanoid(),
+    title: "Redis",
+    icon: (
+      <div className="rounded-xl flex items-center justify-center">
+        <SiRedis className=" mr-60  h-12 w-12 text-emerald-500" />
+      </div>
+    ),
+  },
+  {
+    id: nanoid(),
+    title: "MySQL",
+    icon: (
+      <div className="rounded-xl flex items-center justify-center">
+        <SiMysql className="mr-60 h-12 w-12 text-emerald-500 mr-16" />
+      </div>
+    ),
+  },
+
+  {
+  id: nanoid(),
+  title: "Power BI",
+  icon: (
+    <div className="rounded-xl flex items-center justify-center mr-52">
+      <SiPowerbi className="h-12 w-12 text-emerald-500" />
+    </div>
+  ),
+}
 ];
 
 export const projects = [
@@ -65,7 +108,7 @@ export const projects = [
     url: "https://recipemaker-git-updated-chandru90s-projects.vercel.app/",
     github: "https://github.com/chandru90/recipemaker/tree/master",
     title: "Food Stories",
-    text: "A food  story app that allows users to explore stories around food",
+    text: "Food Stories is a React-based web application designed to let users explore engaging stories centered around food, culture, recipes, and culinary experiences. The platform provides an interactive and visually appealing experience for discovering food-related content and culinary traditions.",
   },
   {
     id: nanoid(),
@@ -88,7 +131,7 @@ export const projects = [
     img: chatImg, // Use the imported image
     url: "https://chat-client-bice.vercel.app/",
     github: "https://github.com/chandru90/chat-client",
-    title: "Realtime Chat Application",
-    text: "A real-time chat application where users can communicate with each other through WebSockets. The app has a schedule feature where users can schedule messages to be sent at a particular time using the Node.js cron scheduler.",
+    title: " Chat Commerce Application",
+    text: "A real-time chat-based eCommerce application that enables users to browse and purchase products through an integrated chat interface. The platform consists of a chat module, eCommerce store. Real-time synchronization is achieved using WebSockets, while scheduled notifications and background jobs are handled through Node Cron Scheduler..",
   },
 ];

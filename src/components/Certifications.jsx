@@ -4,6 +4,7 @@ import SectionTitle from "./SectionTitle";
 import settylLogo from "./settyl_corporation_logo.jpg";
 import grethenalogo from "./grethena.jpg";
 import logo from "./linkedin.png";
+
 const Certifications = () => {
   const internship = [
     {
@@ -25,18 +26,18 @@ const Certifications = () => {
       {internship.map((item, index) => (
         <div
   key={index}
-  className="relative py-16 mt-8 overflow-hidden rounded-xl"
+  className="relative py-4 mt-8 overflow-hidden rounded-xl"
 >
   {/* Overlay background */}
   <div className="absolute inset-0 bg-black/10 backdrop-blur-sm"></div>
 
   {/* Content */}
-  <div className="relative flex flex-col md:flex-row items-center md:items-start p-6 gap-8">
-    <div className="flex flex-col items-center md:items-start md:w-1/">
+  <div className="relative flex flex-col md:flex-row items-center md:items-start p-6 gap-4">
+    <div className="flex flex-col items-center md:items-start md:w-1/6">
       <img
         src={item.logo}
         alt={`${item.company} logo`}
-        className="h-16 w-16 object-contain mb-4"
+        className="h-10 w-16 object-contain mb-4"
       />
       <h3 className="text-xl font-semibold mb-2">{item.company}</h3>
 
